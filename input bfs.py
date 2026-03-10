@@ -30,4 +30,4 @@ for i in range(1,nodes+1):
 print(f"graph is:{graph}")
 start=input("enter the starting node:")
 goal=input("enter the goal node:")
-bfs(start,goal,graph))
+bfs(start,goal,graph)
