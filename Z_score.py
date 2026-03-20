@@ -1,5 +1,5 @@
 import numpy as np
-  import pandas as pd
+import pandas as pd
 
   house={"type of house ":["Flat","Farmhouse","Villa","Penthouse","Apartment",
                          "Bunglow","Farmhouse","flat","Apartment"],
