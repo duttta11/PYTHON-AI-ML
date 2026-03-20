@@ -1,4 +1,4 @@
-  import numpy as np
+import numpy as np
   import pandas as pd
 
   house={"type of house ":["Flat","Farmhouse","Villa","Penthouse","Apartment",
