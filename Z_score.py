@@ -1,7 +1,7 @@
-import numpy as np
-import pandas as pd
+  import numpy as np
+  import pandas as pd
 
-house={"type of house ":["Flat","Farmhouse","Villa","Penthouse","Apartment",
+  house={"type of house ":["Flat","Farmhouse","Villa","Penthouse","Apartment",
                          "Bunglow","Farmhouse","flat","Apartment"],
       "Area of house(sq foot)":[200,800,500,400,100,400,900,150,200],
        "size of house(BHK)":[2,10,12,6,2,5,11,1,4],
