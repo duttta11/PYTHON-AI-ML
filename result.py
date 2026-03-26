@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
- np.random.seed(42)
+np.random.seed(42)
 d={
   "cgpa":np.random.randint(1,5,20),
   "marks":np.random.randint(1,100,20),
