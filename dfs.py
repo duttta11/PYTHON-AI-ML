@@ -1,4 +1,4 @@
- def get_graph():
+def get_graph():
  no_of_nodes=int(input("Enter the no of nodes:"))
   graph={}
   for i in range(no_of_nodes):
