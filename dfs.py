@@ -12,7 +12,7 @@ no_of_nodes=int(input("Enter the no of nodes:"))
     graph[node]=edge
   return graph
 
- def dfs(st,goal,graph,vis=None):
+def dfs(st,goal,graph,vis=None):
   if vis is None:
     vis=set()
   print(st)
