@@ -16,3 +16,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 dtc=DecisionTreeClassifier(criterion='entropy')
 y_pred=dtc.predict(X_test)
 y_test
+accuracy_score(y_test,y_pred)
+precision_score(y_test,y_pred,average='weighted')
+recall_score(y_test, y_pred,average='weighted')
+f1_score(y_test, y_pred,average='weighted')
+print(confusion_matrix(y_test, y_pred))
