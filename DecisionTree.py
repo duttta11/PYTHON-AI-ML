@@ -11,3 +11,8 @@ X, y = make_classification(n_samples=5000, n_features=5, n_informative=5,
 print(f"Shape of features (X): {X.shape}")
 print(f"Shape of target (y): {y.shape}")
 print(f"Number of classes: {len(set(y))}")
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+dtc=DecisionTreeClassifier(criterion='entropy')
+y_pred=dtc.predict(X_test)
+y_test
